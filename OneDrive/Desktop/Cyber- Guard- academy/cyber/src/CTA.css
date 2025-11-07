@@ -1,0 +1,41 @@
+.final-cta-section {
+  padding: 60px 40px;
+  background-color: #0d1a26; /* Slightly different dark shade than other sections */
+  color: white;
+  text-align: center;
+  border-top: 5px solid #ff4d4d; /* Use the urgent red color for a top border */
+}
+
+.cta-content-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cta-headline {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #00e0ff; /* Accent color */
+}
+
+.cta-subtext {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #c0c0c0;
+}
+
+.btn-cta-primary {
+  display: inline-block;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  background-color: #ff4d4d; /* High-urgency Red */
+  color: white;
+  transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn-cta-primary:hover {
+  background-color: #cc0000;
+  transform: translateY(-2px);
+}

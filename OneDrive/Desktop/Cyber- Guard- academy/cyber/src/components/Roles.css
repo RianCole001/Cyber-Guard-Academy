@@ -1,0 +1,77 @@
+.roles-section {
+  padding: 80px 40px;
+  background-color: #1a1a2e; /* Dark background to match the cyber theme */
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00e0ff; /* Bright accent color */
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+  color: #c0c0c0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.roles-grid {
+  display: grid;
+  /* Creates a responsive 3-column grid (or 2 columns on smaller screens) */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px auto;
+}
+
+.role-card {
+  background-color: #2c2c54; /* Slightly lighter background for the cards */
+  padding: 30px;
+  border-radius: 8px;
+  border-top: 5px solid #00e0ff; /* Accent line */
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.role-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 10px 20px rgba(0, 224, 255, 0.2);
+}
+
+.role-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.role-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.role-description {
+  font-size: 1rem;
+  color: #a0a0a0;
+}
+
+.btn-learn-more {
+  /* Inherit styling from Hero section CTA or define new one */
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ff4d4d; /* Highlighting color for CTA */
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-learn-more:hover {
+  background-color: #cc0000;
+}

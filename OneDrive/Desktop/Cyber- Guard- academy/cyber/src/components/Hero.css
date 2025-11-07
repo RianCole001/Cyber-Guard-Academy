@@ -1,0 +1,18 @@
+/* ... existing navbar styles ... */
+
+.btn-register {
+  /* Position it on the far right */
+  margin-left: auto; 
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 700;
+  background-color: #ff4d4d; /* Use a distinct, vibrant color like red/coral */
+  color: white;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+  background-color: #cc0000;
+}
