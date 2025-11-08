@@ -1,7 +1,7 @@
 import React from 'react';
 import './CTA.css'; 
 
-const CTA = () => {
+const Cta = () => {
   return (
     <section className="final-cta-section">
       <div className="cta-content-wrapper">
@@ -14,5 +14,4 @@ const CTA = () => {
     </section>
   );
 };
-
-export default CTA;
+export default Cta;
